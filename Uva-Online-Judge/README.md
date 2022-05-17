@@ -1,2 +1,3 @@
 # Uva-Online-Judge
-Programing answers from UVA
+Studying, Competitive Programing Book.
+Storing mine Programing answers from the book problems.
