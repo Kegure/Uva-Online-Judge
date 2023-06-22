@@ -1,0 +1,16 @@
+v = int(input())
+r = 0
+hexResult = ""
+hex_map = {10: 'A', 11: 'B', 12: 'C', 13: 'D', 14: 'E', 15: 'F'}
+
+while v > 0:
+    r = v % 16
+    v = v // 16
+    if r >= 10:
+        hexResult = hex_map[r] + hexResult
+    else:
+        hexResult = str(r) + hexResult
+
+
+print(hexResult)
+
